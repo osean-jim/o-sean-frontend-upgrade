@@ -1,0 +1,72 @@
+:root {
+
+  --overflow: overlay;
+  --white: #fff;
+  --grey-100: #bfbfbf;
+  --grey-200: #a3a3a3;
+  --grey-25: #f2f2f2;
+  --grey-300: #6d6d6d;
+  --grey-400: #5f5f5f;
+  --grey-50: #e4e4e4;
+  --blue-500: #3ea2ff;
+  --green-500: #55f380;
+  --grey-500: #333333;
+  --main-500: #39d0ff;
+  --red-500: #ff6b6b;
+  --font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  --main-gradient: linear-gradient(91.04deg, #1ce1ff 0%, #38cfff 100%);
+  --side-padding: 140px;
+  --content-width: 1640px;
+}
+
+/*@media screen and (min-width: 200px) {*/
+/*  :root {*/
+/*    --content-width: 1640px;*/
+/*  }*/
+/*}*/
+
+@supports not (overflow: overlay) {
+  :root {
+    --overflow: auto;
+  }
+}
+
+.text-gray-500 {
+  color: var(--grey-500);
+}
+
+.text-gray-400 {
+  color: var(--grey-400)
+}
+
+.text-gray-300 {
+  color: var(--grey-300);
+}
+
+.text-gray-200 {
+  color: var(--grey-200);
+}
+
+.text-gray-100 {
+  color: var(--grey-100);
+}
+
+.text-gray-50 {
+  color: var(--grey-50);
+}
+
+.text-gray-25 {
+  color: var(--grey-25);
+}
+
+.text-red-500 {
+  color: var(--red-500);
+}
+
+.text-green-500 {
+  color: var(--green-500);
+}
+
+.text-blue-500 {
+  color: var(--blue-500);
+}

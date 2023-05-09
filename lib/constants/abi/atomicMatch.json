@@ -1,0 +1,55 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256[16]",
+        "name": "uints",
+        "type": "uint256[16]"
+      },
+      {
+        "internalType": "bytes4[2]",
+        "name": "staticSelectors",
+        "type": "bytes4[2]"
+      },
+      {
+        "internalType": "bytes",
+        "name": "firstExtradata",
+        "type": "bytes"
+      },
+      {
+        "internalType": "bytes",
+        "name": "firstCalldata",
+        "type": "bytes"
+      },
+      {
+        "internalType": "bytes",
+        "name": "secondExtradata",
+        "type": "bytes"
+      },
+      {
+        "internalType": "bytes",
+        "name": "secondCalldata",
+        "type": "bytes"
+      },
+      {
+        "internalType": "uint8[2]",
+        "name": "howToCalls",
+        "type": "uint8[2]"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "metadata",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes",
+        "name": "signatures",
+        "type": "bytes"
+      }
+    ],
+    "name": "atomicMatch_",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]
